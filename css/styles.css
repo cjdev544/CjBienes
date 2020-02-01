@@ -1,0 +1,162 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 300;
+}
+
+.bg-success,
+.btn-success {
+    color: #ffffff;
+    background-color: #78b100!important;
+    border: none;
+}
+
+.bg-warning,
+.btn-warning {
+    color: #ffffff;
+    background-color: #e08709!important;
+    border: none;
+}
+
+
+/* Slider principal */
+.slider-info p {
+    font-size: 1.5rem;
+}
+
+.slider-principal h4 {
+    font-size: 2.5rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+@media (min-width: 768px) {
+    .barra-menu.bg-success {
+        background-color: transparent!important;
+    }
+
+    .header {
+        position: relative;
+    }
+
+    .barra-menu {
+        position: absolute;
+        z-index: 100;
+        width: 100%;
+    }
+}
+
+.navbar-expand-md .navbar-nav .dropdown-menu {
+    background-color: #78b100;
+}
+
+.dropdown-item:hover {
+    background-color: #e08709;
+}
+
+.dropdown-item {
+    color: #ffffff;
+}
+
+.dropdown-item:hover {
+    color: #ffffff;
+}
+
+.navbar-dark .navbar-brand {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.navbar-dark .navbar-brand span {
+    font-weight: 900;
+}
+
+
+/* Sobre nosotros */
+.sobre-nosotros h4 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+/* Img-pag */
+.img-pag {
+    color: #ffffff;
+    background-image: url(/img/contacto.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 22rem;
+}
+
+.img-pag h3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding-top: 8rem;
+}
+
+.img-pag p {
+    padding-bottom: 2rem;
+}
+
+
+/* Blog */
+.entrada .meta span {
+    color: #e08709;
+}
+
+.entrada h3::after {
+    content: '';
+    display: block;
+    width: 8rem;
+    height: .2rem;
+    background-color: #78b100;
+    margin-top: .5rem;
+}
+
+/* Testimonios */
+.testimonios {
+    background-color: #78b100;
+    color: #ffffff;
+}
+
+.testimonios .carousel-item {
+    padding: 1.5rem;
+    line-height: 2rem;
+}
+
+.testimonios .carousel-item span {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-top: 2rem;
+}
+
+.testimonios .carousel-item p::before {
+    content: open-quote;
+    font-size: 2rem;
+}
+
+
+/* Footer */
+.footer {
+    background-color: #4e4e4e;
+    color: #ffffff;
+}
+
+.footer .nav-link {
+    color: #ffffff;
+    font-size: .8rem;
+}
+
+.footer p {
+    font-size: .6rem;
+}
+
+.footer a {
+    color: #78b100;
+    font-size: .8rem;
+}
